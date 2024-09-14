@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:pink;
+    
+}
+
+.logo {
+    color:rgb(59, 2, 2);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 700px;
+    margin-top: -20px;
+    /* position: fixed;
+    z-index: 100; */
+
+}
+.navvy {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: -20px;
+    height: 3em;
+    border-bottom: 2px rgb(59, 2, 2) solid;
+    
+}
+.main {
+    display: flex;
+    margin-top: 30px;
+    
+    
+
+}
+.navbar a {
+    color: rgb(59, 2, 2);
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover {
+    color: whitesmoke;
+   }
+.second {
+    display: flex;
+    
+}
+.third {
+    display: flex;
+    
+    
+}
+.txt1 {
+    margin-left: 500px;
+    font-size: 4em;
+    color: pink;
+    
+}
+.main1 {
+    background-color: rgb(59, 2, 2);
+    height: 35em;
+    width: auto;
+    margin-top: 100px;
+}
+.s1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 10em;
+    width: 35em;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: pink;
+    box-shadow: 3px 3px 3px black;
+    
+}
+.s2 {
+    background-color: pink;
+    height: 10em;
+    width: 35em;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    
+}
+.s3 {
+    background-color: pink;
+    height: 10em;
+    width: 35em;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    
+}
+.s4 {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 10em;
+    width: 35em;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: pink;
+    box-shadow: 3px 3px 3px black;
+}
+.txt2 {
+    text-align: center;
+}
+h6 {
+    font-size: 15px;
+}
