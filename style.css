@@ -18,7 +18,7 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     margin-left: 700px;
     margin-top: -20px;
     /* position: fixed;
@@ -36,8 +36,6 @@ body {
     display: flex;
     margin-top: 30px;
     
-    
-
 }
 .navbar a {
     color:#612717;
@@ -49,18 +47,34 @@ body {
 }
 .myname {
     font-size: 5em;
-    margin-top: 420px;
+    margin-top: 250px;
     color: #612717;
-    margin-left: 890px;
+    margin-left: 800px;
     font-style: italic;
+    padding: 5rem;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 600ms;
+}
+.myname.show{
+    transform: translateX(0);
+    opacity: 1;
 }
 .myname1 {
     font-size: 5em;
     padding-top: 20px;
     color: #612717;
-    margin-left: 950px;
-    margin-top: -25px;
+    margin-left: 880px;
+    margin-top: -180px;
     font-style: italic;
+    padding: 5rem;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 600ms;
+}
+.myname1.show{
+    transform: translateX(0);
+    opacity: 1;
 }
 .image {
     background-image: url(IMG_5002.jpg);
@@ -74,8 +88,17 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: soft-light;
     position: relative;
+    padding: 3rem;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 350ms;
 
 }
+.image.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .image a {
     text-decoration: none;
     color: #FBF0F4;
@@ -83,19 +106,15 @@ body {
     
     
 }
-.imagelink{
-    
-}
-
-
 .imagelink2{
-    margin-left: 680px;
+    margin-left: 660px;
     margin-top: -400px;
 }
 .imagelink2 a{
     text-decoration: none;
     color: #612717;
     font-size: 2em;
+    
 }
 .imagelink2 a:hover{
    color: deeppink;
@@ -104,9 +123,14 @@ body {
     margin-top: -300px;
     margin-left: -760px;
     font-size: 20px;
-
     
+
 }
+
+/* .maintxt.show{
+    opacity: 0;
+    transform: translateX(0);
+} */
 
 h2 {
     font-size: 1.5em;
@@ -187,9 +211,8 @@ h3 {
     }
     .main {
         display: block;
-        margin-top: 30px;
+        margin-top: 30px;  
     }
-    
     
     .add {
         width: 100px;
@@ -209,8 +232,8 @@ h3 {
         display: none;
         position: absolute;
         color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 1;
+        background-color: #612717;
+        z-index: 999999;
         width: 12em;
         height: 15em;
         margin-left: -120px;
@@ -223,9 +246,7 @@ h3 {
         position: relative;
         display: inline-block;
         margin-left: 350px;
-        margin-top: -50px;
-
-        
+        margin-top: -50px;  
         
     }
     .dropdown:hover  .dropdown-content {
@@ -245,20 +266,36 @@ h3 {
         font-size: 1.2em;
     }
     
-    .myname {
+     .myname {
         font-size: 2.5em;
-        margin-top: 30px;
+        margin-top: -80px;
         color: #612717;
-        margin-left: 40px;
+        margin-left: -120px;
         font-style: italic;
+        padding: 5rem;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 600ms;
+    } 
+    .myname.show{
+        transform: translateY(0);
+        opacity: 1;
     }
     .myname1 {
         font-size: 2.5em;
         padding-top: 20px;
         color: #612717;
-        margin-left: 120px;
-        margin-top: -25px;
+        margin-left: 50px;
+        margin-top: -160px;
         font-style: italic;
+        padding: 5rem;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 600ms;
+    }
+    .myname1.show{
+        transform: translateY(0);
+        opacity: 1;
     }
     .image {
         background-image: url(IMG_5002.jpg);
@@ -267,17 +304,24 @@ h3 {
         height: 25em;
         width: 25em;
         background-repeat: no-repeat;
-        margin-top: -10px;
+        margin-top: -80px;
         margin-left:13px ; 
         background-color: rgba(0, 0, 0, 0.7);
         background-blend-mode: soft-light;
         position: relative;
-     
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 600ms;
+    }
+    .image.show{
+        transform: translateX(0);
+        opacity: 1;
     }
     
     .imagelink {
-        padding-top: 20px;
-        padding-left: 15px;
+        margin-top: -30px;
+        margin-left: -30px;
     }
     .imagelink a {
         text-decoration: none;

@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+
+}
+.card {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    padding: 5em;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms;
+    background-image: url(IMG_5252.jpg);
+}
+.card.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.card2 {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 10px;
+    padding: 5em;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms;
+    background-image: url(IMG_5590.jpg);
+}
+.card2.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.txt {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 5em;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms;
+    
+    
+}
+.txt.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
