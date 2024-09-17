@@ -226,19 +226,19 @@ h3 {
         color:#612717 ;
         float: left;
         align-items: center;
-        margin-top: -5px;
+        margin-top: -6px;
     }
     .dropdown-content {
         display: none;
         position: absolute;
         color: white;
         background-color: #612717;
-        z-index: 999999;
+        z-index: 1;
         width: 12em;
         height: 15em;
         margin-left: -120px;
         border-radius: 10px;
-        padding: 5px;
+    
       
     
     }
@@ -246,7 +246,9 @@ h3 {
         position: relative;
         display: inline-block;
         margin-left: 350px;
-        margin-top: -50px;  
+        margin-top: -50px;
+
+        
         
     }
     .dropdown:hover  .dropdown-content {
@@ -254,18 +256,23 @@ h3 {
         color: aliceblue;
     }
     ul a:hover {
-        color:lime;
+        color:deeppink;
     }
     ul a {
         display: block;
         color: ghostwhite;
-        padding-top: 20px;
-        padding-left: 50px;
+        padding-top: 30px;
+        padding-left: 40px;
         text-decoration: none;
         font-family: georgia;
         font-size: 1.2em;
     }
-    
+    .name-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
      .myname {
         font-size: 2.5em;
         margin-top: -80px;
@@ -273,28 +280,28 @@ h3 {
         margin-left: -120px;
         font-style: italic;
         padding: 5rem;
-        transform: translateY(100px);
+        transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
     } 
     .myname.show{
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
     }
     .myname1 {
         font-size: 2.5em;
         padding-top: 20px;
         color: #612717;
-        margin-left: 50px;
-        margin-top: -160px;
+        margin-left: -70px;
+        margin-top: -180px;
         font-style: italic;
         padding: 5rem;
-        transform: translateY(100px);
+        transform: translateX(100px);
         opacity: 0;
-        transition: 600ms;
+        transition: 600ms; 
     }
     .myname1.show{
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
     }
     .image {
@@ -312,7 +319,7 @@ h3 {
         padding: 5rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 600ms;
+        transition: 500ms;
     }
     .image.show{
         transform: translateX(0);
@@ -326,6 +333,8 @@ h3 {
     .imagelink a {
         text-decoration: none;
         color: #FBF0F4;
+        margin-left: -40px;
+
         
     }
     .imagelink a:hover{
@@ -334,24 +343,26 @@ h3 {
     .imagelink2{
         display: none;
     }
+    .maintxt-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+       
+     .maintxt2 {
+        font-size: 1em;
+        text-align: center;
+       
+    }
     .maintxt {
-        margin-top: 110px;
-        margin-left: 50px;
-        font-size: 20px;
-    
-        
-    }
-    
-    h2 {
-        font-size: 2em;
-        text-align: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 1.5em;
         color: #612717;
-        margin-top: -80px;
+       text-align: center;
     }
-    h3 {
-        text-align: center;
-        color:#612717;
-    }
+   
     .svgimg{
         display: block;
         gap: 20px;
