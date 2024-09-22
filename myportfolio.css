@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: #FBF0F4;
@@ -21,6 +22,7 @@ body {
     gap: 50px;
     margin-left: 700px;
     margin-top: -20px;
+    width: auto;
     /* position: fixed;
     z-index: 100; */
 
@@ -290,7 +292,7 @@ body {
     background-color: rgb(51, 27, 10);
     height: 1em;
     width: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     
 }
 
@@ -352,9 +354,9 @@ body {
         color: white;
         background-color: #612717;
         z-index: 1;
-        width: 12em;
+        width: 25em;
         height: 15em;
-        margin-left: -120px;
+        margin-left: -340px;
         border-radius: 10px;
     
       
@@ -614,8 +616,8 @@ body {
     .foot {
         background-color: rgb(51, 27, 10);
         height: 1em;
+        margin-top: 50px;
         width: auto;
-        margin-top: 200px;
         
     }
     
