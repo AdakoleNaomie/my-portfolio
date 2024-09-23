@@ -285,6 +285,7 @@ h3 {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     } 
     .myname.show{
         transform: translateX(0);
@@ -301,6 +302,7 @@ h3 {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms; 
+        overflow: hidden;
     }
     .myname1.show{
         transform: translateX(0);
@@ -322,6 +324,7 @@ h3 {
         transform: translateX(100px);
         opacity: 0;
         transition: 500ms;
+        overflow: hidden;
     }
     .image.show{
         transform: translateX(0);

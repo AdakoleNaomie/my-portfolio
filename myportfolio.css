@@ -404,6 +404,7 @@ body {
         transition: 600ms;
         margin-left: 60px;
         margin-top: -20px;
+        overflow: hidden;
     }
     .first.show{
         transform: translateX(0);
@@ -427,6 +428,7 @@ body {
          opacity: 0;
          transition: 600ms;
          font-size: 1em;
+         overflow: hidden;
      }
      .textbox.show{
          transform: translateX(0);
@@ -441,6 +443,7 @@ body {
          transition: 600ms;
          color: #612717;
          font-size: 1.5em;
+         overflow: hidden;
      }
      .textbox2.show{
          transform: translateX(0);
@@ -456,6 +459,7 @@ body {
          color: #612717;
          margin-top: -20px;
          font-size: 2em;
+         overflow: hidden;
      }
      .textbox3.show{
          transform: translateX(0);
@@ -469,6 +473,7 @@ body {
          transition: 600ms;
          color: #612717;
          margin-top: 10px;
+         overflow: hidden;
      }
      .textbox4.show{
          transform: translateX(0);
@@ -482,6 +487,7 @@ body {
          opacity: 0;
          transition: 600ms;
          font-size: 1em;
+         overflow: hidden;
      }
      .textbox5.show{
          transform: translateX(0);
@@ -532,6 +538,7 @@ body {
          transform: translateX(100px);
          opacity: 0;
          transition: 600ms;
+         overflow: hidden;
      }
      .txt1.show{
          transform: translateX(0);
@@ -547,6 +554,7 @@ body {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     }
     .txt2.show{
         transform: translateX(0);
@@ -562,6 +570,7 @@ body {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     }
     .txt3.show{
         transform: translateX(0);
@@ -578,6 +587,7 @@ body {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     }
     .b1.show{
         transform: translateX(0);
@@ -593,6 +603,7 @@ body {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     }
     .b2.show{
         transform: translateX(0);
@@ -608,6 +619,7 @@ body {
         transform: translateX(100px);
         opacity: 0;
         transition: 600ms;
+        overflow: hidden;
     }
     .b3.show{
         transform: translateX(0);
@@ -616,7 +628,7 @@ body {
     .foot {
         background-color: rgb(51, 27, 10);
         height: 1em;
-        margin-top: 50px;
+        margin-top: 120px;
         width: auto;
         
     }

@@ -238,7 +238,7 @@ const observer12 = new IntersectionObserver(entries => {
     })
 }, {
     // threshold: 1,
-    rootMargin:"-100px",
+    rootMargin:"100px",
 })
 textbox5.forEach(textbox5=>{
     observer.observe(textbox5)
