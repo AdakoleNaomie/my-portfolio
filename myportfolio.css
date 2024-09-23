@@ -81,7 +81,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
-    
+    overflow: hidden;
 }
 .textbox {
     margin-top: 120px;
@@ -91,6 +91,7 @@ body {
      opacity: 0;
      transition: 600ms;
      font-size: 2em;
+
  }
  .textbox.show{
      transform: translateX(0);
@@ -215,6 +216,7 @@ body {
      transform: translateX(100px);
      opacity: 0;
      transition: 600ms;
+     overflow: hidden;
      
  }
  .txt1.show{
@@ -231,7 +233,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
-    overflow: hidden;
+
 }
 .txt2.show{
     transform: translateX(0);
@@ -247,6 +249,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
+
 
 }
 .txt3.show{
@@ -265,6 +268,7 @@ body {
     opacity: 0;
     transition: 600ms;
     
+    
 }
 .b1.show{
     transform: translateX(0);
@@ -280,6 +284,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
+    
 }
 .b2.show{
     transform: translateX(0);
@@ -295,6 +300,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
+
 }
 .b3.show{
     transform: translateX(0);
@@ -307,7 +313,7 @@ body {
     height: 1em;
     width: auto;
     margin-top: 100px;
-    overflow: hidden;
+
     
 }
 
@@ -407,7 +413,7 @@ body {
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
-        overflow: hidden;
+        
     }
     .first {
         text-align: center;
@@ -435,7 +441,7 @@ body {
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
-        overflow: hidden;
+    
     }
     .textbox {
         margin-top: 20px;
