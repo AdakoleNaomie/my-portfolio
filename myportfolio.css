@@ -656,7 +656,7 @@ body {
         height: 1em;
         margin-top: 120px;
         width: 27em;
-        
+        overflow: hidden;
         
     }
     
