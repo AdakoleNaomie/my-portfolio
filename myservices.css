@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body {
-    background-color:pink;
+    background-color:#FBF0F4;
     
 }
 
 .logo {
-    color:rgb(59, 2, 2);
+    color:#612717;
     margin-top: 20px;
     margin-left: 50px;
     font-size: 20px;
@@ -26,10 +26,9 @@ body {
 
 }
 .navvy {
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-top: -20px;
-    height: 3em;
-    border-bottom: 2px rgb(59, 2, 2) solid;
+    margin-top: 20px;
+    
+
     
 }
 .main {
@@ -62,12 +61,12 @@ body {
     color: pink;
     
 }
-.main1 {
+/* .main1 {
     background-color: rgb(59, 2, 2);
     height: 35em;
     width: auto;
     margin-top: 100px;
-}
+} */
 .s1 {
     background-color: rgba(0, 0, 0, 0.3);
     height: 10em;
@@ -114,4 +113,101 @@ body {
 }
 h6 {
     font-size: 15px;
+}
+
+
+.lg{
+    display: none;
+}
+
+
+@media only screen and (max-width:470px) {
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-top: 15px; 
+    }
+    .logo a {
+        text-decoration: none;
+        color: #612717;
+    }
+    body {
+        background-color: #FBF0F4;
+    }
+    .navbar {
+       display: none;
+       width: auto;
+    
+    }
+    .navvy {
+        margin-top: -20px;
+     
+    }
+    .main1 {
+        display: block;
+        margin-top: 30px;  
+        background-color: none;
+    }
+    
+    .add {
+        width: 100px;
+        height: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .box {
+        width: 100px;
+        height: 30px;
+        color:#612717 ;
+        float: left;
+        align-items: center;
+        margin-top: -6px;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: #612717;
+        z-index: 1;
+        width: 25em;
+        height: 15em;
+        margin-left: -340px;
+        border-radius: 10px;    
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 350px;
+        margin-top: -50px;
+
+    }
+    .dropdown:hover  .dropdown-content {
+        display: block;
+        color: aliceblue;
+    }
+    ul a:hover {
+        color:deeppink;
+    }
+    ul a {
+        display: block;
+        color: ghostwhite;
+        padding-top: 30px;
+        padding-left: 40px;
+        text-decoration: none;
+        font-family: georgia;
+        font-size: 1.2em;
+    }
+    .foot {
+        background-color: rgb(51, 27, 10);
+        height: 1em;
+        width: 27em;
+        overflow: hidden;
+        margin-top: 300px;
+         
+    }
+    
+    .foottxt{
+        text-align: center;
+        color: #FBF0F4;
+    }
 }
