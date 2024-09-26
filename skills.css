@@ -164,21 +164,21 @@ body {
           opacity: 1;
       }
     .main-container {
-        display: flex;
-        flex-direction: column;
+        display: block;
         align-items: flex-start;
         overflow: hidden;
         margin-top: 50px;
+        width: auto;
 
     }
     .cont1{
       background-image: url(html\ img.png);
       height: 10em;
-      width: 25em;
+      width: auto;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
-      margin-left: 13px;
+      margin-left: 0px;
       background-color: rgb(214, 74, 18);
       border-radius: 10px;
       box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
@@ -194,11 +194,11 @@ body {
     .cont2{
         background-image: url(css\ img\ 2.png);
         height: 10em;
-        width: 25em;
+        width: auto;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 13px;
+        margin-left: 0px;
         background-color: blue;
         margin-top: 50px;
         border-radius: 10px;
@@ -214,11 +214,11 @@ body {
       .cont3{
         background-image: url(js\ img.png);
         height: 10em;
-        width: 25em;
+        width: auto;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 13px;
+        margin-left: 0px;
        background-color: rgb(204, 174, 6);
        margin-top: 50px;
        border-radius: 10px;
@@ -234,11 +234,11 @@ body {
       .cont4{
         background-image: url(ms\ office.png);
         height: 10em;
-        width: 25em;
+        width: auto;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 13px;
+        margin-left: 0px;
         background-color: orangered;
         margin-top: 50px;
         border-radius: 10px;
@@ -254,11 +254,11 @@ body {
       .cont5{
         background-image: url(cs\ img.png);
         height: 10em;
-        width: 25em;
+        width: auto;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 13px;
+        margin-left: 0px;
         background-color: rgb(98, 98, 240);
         margin-top: 50px;
         border-radius: 10px;
@@ -274,11 +274,11 @@ body {
       .cont6{
         background-image: url(va\ img.png);
         height: 10em;
-        width: 25em;
+        width: auto;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 13px;
+        margin-left: 0px;
         background-color: rgb(92, 92, 153);
         margin-top: 50px;
         border-radius: 10px;
