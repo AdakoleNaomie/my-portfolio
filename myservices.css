@@ -9,11 +9,16 @@ body {
 }
 
 .logo {
-    color:#612717;
     margin-top: 20px;
     margin-left: 50px;
-    font-size: 20px;
     
+    
+}
+.logo a {
+    text-decoration: none;
+    color: #612717;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar {
     display: flex;
@@ -28,85 +33,136 @@ body {
 .navvy {
     margin-top: 20px;
     
-
-    
 }
 .main {
     display: flex;
     margin-top: 30px;
-    
-    
 
 }
 .navbar a {
     color: rgb(59, 2, 2);
     text-decoration: none;
     font-size: 18px;
+    margin-top: -8px;
 }
 .navbar a:hover {
-    color: whitesmoke;
+    color: deeppink;
    }
-.second {
+
+   .the {
+    font-size: 5em;
+    color: #612717;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .second{
     display: flex;
-    
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-start;
+    overflow: hidden;
+    /* margin-left: 80px; */
 }
 .third {
     display: flex;
-    
-    
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-start;
+    overflow: hidden;
+    /* margin-left: 80px; */
 }
-.txt1 {
-    margin-left: 500px;
-    font-size: 4em;
-    color: pink;
-    
-}
-/* .main1 {
-    background-color: rgb(59, 2, 2);
-    height: 35em;
-    width: auto;
-    margin-top: 100px;
-} */
 .s1 {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 10em;
+    background-color: #612717;
+    height: 13em;
     width: 35em;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 50px;
     border-radius: 10px;
-    color: pink;
+    color: #FBF0F4;
+    padding: 1em; 
+    transform: translateX(100px);
+    transition: 1000ms;
+    opacity: 0;
+}
+.s1.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.s1:hover {
+    background-color: ghostwhite;
+    color: #612717;
     box-shadow: 3px 3px 3px black;
-    
+    transition: 1000ms;
 }
 .s2 {
-    background-color: pink;
-    height: 10em;
+    background-color: #612717;
+    height: 13em;
     width: 35em;
-    margin-left: 90px;
+    margin-left: 12px;
     margin-top: 50px;
     border-radius: 10px;
+    color: #FBF0F4;
+    padding: 1em; 
+    transform: translateX(100px);
+    transition: 1000ms;
+    opacity: 0;
+}
+.s2.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.s2:hover {
+    background-color: ghostwhite;
+    color: #612717;
     box-shadow: 3px 3px 3px black;
-    
+    transition: 1000ms;
 }
 .s3 {
-    background-color: pink;
-    height: 10em;
+    background-color:#612717;
+    height: 13em;
     width: 35em;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 100px;
     border-radius: 10px;
+    color: #FBF0F4;
+    padding: 1em; 
+    transform: translateX(100px);
+    transition: 1000ms;
+    opacity: 0;
+}
+.s3.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.s3:hover {
+    background-color: ghostwhite;
+    color: #612717;
     box-shadow: 3px 3px 3px black;
-    
+    transition: 1000ms;
 }
 .s4 {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 10em;
+    background-color: #612717;
+    color: #FBF0F4;
+    height: 13em;
     width: 35em;
-    margin-left: 90px;
+    margin-left: 12px;
     margin-top: 50px;
     border-radius: 10px;
-    color: pink;
+    padding: 1em; 
+    transform: translateX(100px);
+    transition: 1000ms;
+    opacity: 0;
+}
+.s4.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.s4:hover {
+    background-color: ghostwhite;
+    color: #612717;
     box-shadow: 3px 3px 3px black;
+    transition: 1000ms;
 }
 .txt2 {
     text-align: center;
@@ -114,7 +170,38 @@ body {
 h6 {
     font-size: 15px;
 }
+.b4 {
+    height: 4em;
+    width: 20em;
+    background-color: #612717;
+    color: #FBF0F4;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 550px;
+    
+}
+.b4:hover {
+    background-color: ghostwhite;
+    color: #612717;
+    box-shadow: 3px 3px 3px black;
+    transition: 1000ms;
+}
 
+
+.foot {
+    background-color: rgb(51, 27, 10);
+    height: 1em;
+    width: auto;
+    overflow: hidden;
+    margin-top: 150px;
+     
+}
+
+.foottxt{
+    text-align: center;
+    color: #FBF0F4;
+}
 
 .lg{
     display: none;
@@ -130,6 +217,7 @@ h6 {
     .logo a {
         text-decoration: none;
         color: #612717;
+        font-size: 1.5em;
     }
     body {
         background-color: #FBF0F4;
@@ -143,11 +231,7 @@ h6 {
         margin-top: -20px;
      
     }
-    .main1 {
-        display: block;
-        margin-top: 30px;  
-        background-color: none;
-    }
+  
     
     .add {
         width: 100px;
@@ -166,8 +250,7 @@ h6 {
     .dropdown-content {
         display: none;
         position: absolute;
-        color: white;
-        background-color: #612717;
+        background-color: #FBF0F4;
         z-index: 1;
         width: 25em;
         height: 15em;
@@ -190,19 +273,168 @@ h6 {
     }
     ul a {
         display: block;
-        color: ghostwhite;
+        color: #612717;
         padding-top: 30px;
         padding-left: 40px;
         text-decoration: none;
         font-family: georgia;
         font-size: 1.2em;
     }
+    .main1 {
+        display: block;
+        margin-top: 10px;  
+        
+
+    }
+     .the-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow: hidden;
+    } 
+     .the {
+        font-size: 3em;
+        color: #612717;
+        margin-left: 90px;
+        margin-top: -10px;
+        /* transform: translateX(100px);
+        transition: 200ms;
+        opacity: 0; */
+    
+     }
+
+    .second{
+        display: block;
+        gap: 1rem;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .third {
+        display: block;
+        gap: 1rem;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .s1 {
+        background-color: #612717;
+        height: 10em;
+        width: 25em;
+        margin-left: 12px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: #FBF0F4;
+        transform: translateX(100px);
+        transition: 800ms;
+        opacity: 0;
+    }
+    .s1.show{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .s1:hover {
+        background-color: ghostwhite;
+        color: #612717;
+        box-shadow: 3px 3px 3px black;
+        transition: 1000ms;
+    }
+    .s2 {
+        background-color: #612717;
+        height: 10em;
+        width: 25em;
+        margin-left: 12px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: #FBF0F4;
+        padding: 1em; 
+        transform: translateX(100px);
+        transition: 900ms;
+        opacity: 0;
+    }
+    .s2.show{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .s2:hover {
+        background-color: ghostwhite;
+        color: #612717;
+        box-shadow: 3px 3px 3px black;
+        transition: 1000ms;
+    }
+    .s3 {
+        background-color:#612717;
+        height: 10em;
+        width: 25em;
+        margin-top: 50px;
+        margin-left: 12px;
+        border-radius: 10px;
+        color: #FBF0F4;
+        padding: 1em; 
+        transform: translateX(100px);
+        transition: 1000ms;
+        opacity: 0;
+    }
+    .s3.show{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .s3:hover {
+        background-color: ghostwhite;
+        color: #612717;
+        box-shadow: 3px 3px 3px black;
+        transition: 1000ms;
+    }
+    .s4 {
+        background-color: #612717;
+        color: #FBF0F4;
+        height: 10em;
+        width: 25em;
+        margin-left: 12px;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 1em; 
+        transform: translateX(100px);
+        transition: 1000ms;
+        opacity: 0;
+    }
+    .s4.show{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .s4:hover {
+        background-color: ghostwhite;
+        color: #612717;
+        box-shadow: 3px 3px 3px black;
+        transition: 1000ms;
+    }
+    .txt2 {
+        text-align: center;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    .b4 {
+        height: 3em;
+        width: 10em;
+        background-color: #612717;
+        color: #FBF0F4;
+        border: none;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .b4:hover {
+        background-color: ghostwhite;
+        color: #612717;
+        box-shadow: 3px 3px 3px black;
+    }
+    
+    
     .foot {
         background-color: rgb(51, 27, 10);
         height: 1em;
         width: 27em;
         overflow: hidden;
-        margin-top: 300px;
+        margin-top: 150px;
          
     }
     

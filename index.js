@@ -51,3 +51,4 @@ const observer2 = new IntersectionObserver(entries => {
 image.forEach(image =>{
     observer.observe(image)
 })
+

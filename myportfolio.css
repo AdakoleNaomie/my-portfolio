@@ -8,16 +8,15 @@ body {
     background-color: #FBF0F4;
 }
 .logo {
-    
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-top: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
     
 }
 .logo a {
     text-decoration: none;
     color: #612717;
     font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar {
@@ -35,6 +34,7 @@ body {
     color:#612717;
     text-decoration: none;
     font-size: 18px;
+    margin-top: -8px;
 }
 .navbar a:hover{
     color: deeppink;
@@ -67,6 +67,7 @@ body {
     transition: 400ms;
     margin-left: 400px;
     margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .first.show{
     transform: translateX(0);
