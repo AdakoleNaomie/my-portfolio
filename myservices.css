@@ -49,13 +49,23 @@ body {
     color: deeppink;
    }
 
-   .the {
-    font-size: 5em;
+   .the-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+} 
+ .the {
+    font-size: 3em;
     color: #612717;
-    text-align: center;
-    margin-top: 30px;
+    margin-left: 90px;
+    margin-top: -10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   }
+    /* transform: translateX(100px);
+    transition: 200ms;
+    opacity: 0; */
+
+ }
    .second{
     display: flex;
     flex-direction: row;
@@ -76,7 +86,7 @@ body {
     background-color: #612717;
     height: 13em;
     width: 35em;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 50px;
     border-radius: 10px;
     color: #FBF0F4;
@@ -99,7 +109,6 @@ body {
     background-color: #612717;
     height: 13em;
     width: 35em;
-    margin-left: 12px;
     margin-top: 50px;
     border-radius: 10px;
     color: #FBF0F4;
@@ -123,7 +132,7 @@ body {
     height: 13em;
     width: 35em;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 90px;
     border-radius: 10px;
     color: #FBF0F4;
     padding: 1em; 
@@ -146,7 +155,6 @@ body {
     color: #FBF0F4;
     height: 13em;
     width: 35em;
-    margin-left: 12px;
     margin-top: 50px;
     border-radius: 10px;
     padding: 1em; 
@@ -208,7 +216,7 @@ h6 {
 }
 
 
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:480px) {
     .logo {
         margin-top: 20px;
         margin-left: 20px;
@@ -347,7 +355,7 @@ h6 {
         color: #FBF0F4;
         padding: 1em; 
         transform: translateX(100px);
-        transition: 900ms;
+        transition: 800ms;
         opacity: 0;
     }
     .s2.show{
@@ -370,7 +378,7 @@ h6 {
         color: #FBF0F4;
         padding: 1em; 
         transform: translateX(100px);
-        transition: 1000ms;
+        transition: 800ms;
         opacity: 0;
     }
     .s3.show{
@@ -393,7 +401,7 @@ h6 {
         border-radius: 10px;
         padding: 1em; 
         transform: translateX(100px);
-        transition: 1000ms;
+        transition: 800ms;
         opacity: 0;
     }
     .s4.show{

@@ -51,7 +51,7 @@ body {
 
 
 
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:480px) {
     .logo {
         color:  #612717;
         margin-top: 20px;
@@ -179,11 +179,11 @@ body {
       background-size: contain;
       background-repeat: no-repeat;
       margin-left: 13px;
-      background-color: white;
+      background-color: rgb(214, 74, 18);
       border-radius: 10px;
       box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
       transform: translateX(100px);
-      transition: 1000ms;
+      transition: 800ms;
       opacity: 0; 
     
     }
@@ -199,13 +199,13 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 13px;
-        background-color: white;
-        margin-top: 20px;
+        background-color: blue;
+        margin-top: 50px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
         transform: translateX(100px);
         opacity: 0;
-        transition: 1000ms;
+        transition: 800ms;
       }
       .cont2.show{
           transform: translateX(0);
@@ -219,13 +219,13 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 13px;
-       background-color: white;
-       margin-top: 20px;
+       background-color: rgb(204, 174, 6);
+       margin-top: 50px;
        border-radius: 10px;
        box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
       transform: translateX(100px);
       opacity: 0;
-      transition: 1000ms;
+      transition: 800ms;
     }
     .cont3.show{
         transform: translateX(0);
@@ -239,13 +239,13 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 13px;
-        background-color: white;
-        margin-top: 20px;
+        background-color: orangered;
+        margin-top: 50px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
         transform: translateX(100px);
         opacity: 0;
-        transition: 1000ms;
+        transition: 800ms;
       }
       .cont4.show{
           transform: translateX(0);
@@ -259,8 +259,8 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 13px;
-        background-color: white;
-        margin-top: 20px;
+        background-color: rgb(98, 98, 240);
+        margin-top: 50px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
         transform: translateX(100px);
@@ -279,8 +279,8 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 13px;
-        background-color: white;
-        margin-top: 20px;
+        background-color: rgb(92, 92, 153);
+        margin-top: 50px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.6);
         transform: translateX(100px);

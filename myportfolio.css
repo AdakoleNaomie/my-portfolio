@@ -94,6 +94,7 @@ body {
      font-size: 2em;
 
  }
+ 
  .textbox.show{
      transform: translateX(0);
      opacity: 1;
@@ -106,7 +107,8 @@ body {
      opacity: 0;
      transition: 600ms;
      color: #612717;
-     font-size: 2em;
+     font-size: 1.5em;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
  }
  .textbox2.show{
@@ -122,6 +124,7 @@ body {
      color: #612717;
      font-size: 2em;
      margin-top: -20px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
  }
  .textbox3.show{
@@ -159,8 +162,8 @@ body {
  }
 
 .textbox1 {
-    font-size: 2em;
     color: #612717;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .f {
     display: grid;
@@ -216,7 +219,7 @@ body {
 .txt1 {
     font-size: 1.5em;
     color: #612717;
-     font-style: italic;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      margin-left: -510px;
      margin-top: -40px;
      padding: 1rem;
@@ -234,7 +237,7 @@ body {
     margin-left: 70px;
     font-size: 1.5em;
     color: #612717;
-    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -270px;
     padding: 1rem;
     transform: translateX(100px);
@@ -249,7 +252,7 @@ body {
 .txt3 {
     font-size: 1.5em;
     color: #612717;
-    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -320px;
     margin-left: -600px;
     padding: 1rem;
@@ -298,6 +301,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
+    color: black;
     
 }
 .b2.show{
@@ -314,6 +318,7 @@ body {
     transform: translateX(100px);
     opacity: 0;
     transition: 600ms;
+    color: black;
 
 }
 .b3.show{
