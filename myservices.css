@@ -175,10 +175,37 @@ body {
 }
 .txt2 {
     text-align: center;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h6 {
-    font-size: 15px;
-}
+.t1 {
+    font-size: 1em;
+    margin-top: 20px;
+    font-family: 'lucida sans';
+    line-height: 30px;
+    text-align: center;
+   }
+   .t2 {
+    font-size: 1em;
+    margin-top: 20px;
+    font-family: 'lucida sans';
+    line-height: 30px;
+    text-align: center;
+   }
+   .t3 {
+    font-size: 1em;
+    margin-top: 12px;
+    font-family: 'lucida sans';
+    line-height: 20px;
+    text-align: center;
+   }
+   .t4 {
+    font-size: 1em;
+    margin-top: 20px;
+    font-family: 'lucida sans';
+    line-height: 30px;
+    text-align: center;
+   }
 .b4 {
     height: 4em;
     width: 20em;
@@ -469,7 +496,7 @@ h6 {
     
     .foot {
         background-color: rgb(51, 27, 10);
-        height: 1.1em;
+        height: 1em;
         width: auto;
         overflow: hidden;
         margin-top: 250px;
@@ -983,8 +1010,8 @@ h6 {
         font-size: 15px;
     }
     .b4 {
-        height: 2.5em;
-        width: 10em;
+        height: 2em;
+        width: 8em;
         background-color: #612717;
         color: #FBF0F4;
         border: none;

@@ -1105,7 +1105,7 @@ body {
         width: 300px;
         border-radius: 10px;
         margin-left: 65px;
-        margin-top: -390px;
+        margin-top: -410px;
     }
     .txts4 {
         margin-top: 350px;
@@ -1120,11 +1120,11 @@ body {
     }
     .txt10 {
         color: #612717;
-        font-size: 1.3em;
-        padding-top: 30px;
+        font-size: 1.4em;
+        padding-top: 50px;
         text-align: center;
         margin-left: -60px;
-        padding-top: 10px;
+        
     }
     .txt11 {
         color: #612717;
@@ -1143,7 +1143,7 @@ body {
         width: 300px;
         border-radius: 10px;
         margin-left: 65px;
-        margin-top: 140px;
+        margin-top: 160px;
     }
     .txts5 {
         margin-top: 20px;
