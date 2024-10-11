@@ -1105,7 +1105,7 @@ body {
         width: 300px;
         border-radius: 10px;
         margin-left: 65px;
-        margin-top: -400px;
+        margin-top: -410px;
     }
     .txts4 {
         transform: translateX(100px);
@@ -1118,7 +1118,7 @@ body {
     }
     .txt10 {
         color: #612717;
-        font-size: 1.5em;
+        font-size: 1.3em;
         padding-top: 20px;
         text-align: center;
         margin-left: -60px;
@@ -1126,7 +1126,7 @@ body {
     }
     .txt11 {
         color: #612717;
-        font-size: 0.7em;
+        font-size: 0.5em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
        font-weight: lighter;
         text-align: center;
