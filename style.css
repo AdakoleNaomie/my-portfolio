@@ -65,7 +65,7 @@ body {
     padding: 5rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 600ms;
+    transition: 1200ms;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .myname.show{
@@ -82,7 +82,7 @@ body {
     padding: 5rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 600ms;
+    transition: 1200ms;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .myname1.show{
@@ -104,7 +104,7 @@ body {
     padding: 3rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 350ms;
+    transition: 1000ms;
 
 }
 .image.show {
