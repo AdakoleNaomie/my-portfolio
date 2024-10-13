@@ -1108,6 +1108,7 @@ body {
         margin-top: -410px;
     }
     .txts4 {
+        margin-top: 350px;
         transform: translateX(100px);
         opacity: 0;
         transition: 1000ms;
