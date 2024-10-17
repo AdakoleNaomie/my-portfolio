@@ -1434,7 +1434,7 @@ body {
     }
     .b1:hover {
         background-color: #FBF0F4;
-        border: none;
+        border: 2px #612717 solid;
         border-radius: 10px;
         color: #612717;
     }
@@ -1461,7 +1461,7 @@ body {
     }
     .b2:hover {
         background-color: #FBF0F4;
-        border: none;
+        border: 2px #612717 solid;
         border-radius: 10px;
         color: #612717;
     }
@@ -1487,7 +1487,7 @@ body {
     }
     .b3:hover {
         background-color: #FBF0F4;
-        border: none;
+        border: 2px #612717 solid;
         border-radius: 10px;
         color: #612717;
     }
