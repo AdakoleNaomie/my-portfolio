@@ -1166,9 +1166,9 @@ body {
         position: absolute;
         background-color: #FBF0F4;
         z-index: 1;
-        width: 26em;
+        width: 26.5em;
         height: 15em;
-        margin-left: -345px;
+        margin-left: -351px;
         border-radius: 10px;
     
       
@@ -1325,9 +1325,9 @@ body {
         background-image: url(IMG_5254.jpg);
         background-position: center;
         background-size: cover;
-        height:44em;
-        width: 27em;
-        margin-left: 0px;
+        height:40em;
+        width: 25em;
+        margin-left: 13px;
         
     }
 
@@ -1337,9 +1337,9 @@ body {
         background-position: center;
         background-size: cover;
         height:30em;
-        width: 27em;
+        width: 25em;
         margin-top: 100px;
-        margin-left: 0px;
+        margin-left: 13px;
         
     }
     .f3 {
@@ -1348,9 +1348,9 @@ body {
         background-position: center;
         background-size: cover;
         height:30em;
-        width: 27em;
+        width: 25em;
         margin-top: 100px;
-        margin-left: 0px;
+        margin-left: 13px;
 
     }
     .txt1 {
