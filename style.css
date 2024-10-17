@@ -4,6 +4,11 @@
     box-sizing: border-box;
     
 }
+/* .mainbody {
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+} */
 body {
     background-color: #FBF0F4;
     
@@ -43,6 +48,7 @@ body {
 }
 .main {
     display: flex;
+    justify-content: center;
     margin-top: 30px;
     
 }
@@ -57,13 +63,15 @@ body {
     
 }
 .navbar a:hover{
-    color: deeppink;
+    color: #FBF0F4;
+    background-color: #612717;
+    padding: 10px;
 }
 .myname {
     font-size: 5em;
     margin-top: 250px;
     color: #612717;
-    margin-left: 800px;
+    margin-left: 880px;
     font-style: italic;
     padding: 5rem;
     transform: translateX(100px);
@@ -79,7 +87,7 @@ body {
     font-size: 5em;
     padding-top: 20px;
     color: #612717;
-    margin-left: 880px;
+    margin-left: 950px;
     margin-top: -180px;
     font-style: italic;
     padding: 5rem;
@@ -168,7 +176,7 @@ h3 {
     gap: 20px;
     margin-top: -300px;
     position: fixed;
-    margin-left: 15px;
+    margin-left: -1255px;
 
 
 }

@@ -44,11 +44,13 @@ body {
     text-decoration: none;
     font-size: 18px;
     margin-top: -8px;
+    border-radius: 10px;
 }
-.navbar a:hover {
-    color: deeppink;
-   }
-
+.navbar a:hover{
+    color: #FBF0F4;
+    background-color: #612717;
+    padding: 10px;
+}
    /* .the-container {
     display: flex;
     flex-direction: column;
