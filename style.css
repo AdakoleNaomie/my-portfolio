@@ -234,7 +234,7 @@ h3 {
 
 
 
-@media only screen and (max-width:991px) {
+@media only screen and (min-width: 768px) and (max-width:991px) {
     .logo {
         color:  #612717;
         margin-top: 20px;
@@ -248,8 +248,7 @@ h3 {
     }
     .navbar {
        display: none;
-    
-    
+
     }
     .navvy {
         margin-top: -20px;
@@ -281,9 +280,9 @@ h3 {
         color: white;
         background-color: #612717;
         z-index: 1;
-        width: 60em;
+        width: 62em;
         height: 20em;
-        margin-left: -850px;
+        margin-left: -870px;
         border-radius: 10px;
     
     }
@@ -469,7 +468,7 @@ h3 {
     
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (min-width:480px) and (max-width:768px) {
     .logo {
         color:  #612717;
         margin-top: 20px;
@@ -486,16 +485,8 @@ h3 {
     
     
     }
-    .navvy {
-        margin-top: -20px;
-        height: 2.8m;
- 
-    }
-    .main {
-        display: block;
-        margin-top: 30px;  
-    }
-    
+   
+   
     .add {
         width: 100px;
         height: 50px;
@@ -516,9 +507,9 @@ h3 {
         color: white;
         background-color: #612717;
         z-index: 1;
-        width: 47em;
+        width: 48em;
         height: 20em;
-        margin-left: -660px;
+        margin-left: -670px;
         border-radius: 10px;
     
       
@@ -706,31 +697,24 @@ h3 {
     
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (min-width: 320px) and (max-width:479px) {
     .logo {
         color:  #612717;
         margin-top: 20px;
         margin-left: 20px;
         font-size: 0.7em;
         padding-top: 15px;
+      
         
     }
     body {
         background-color: #FBF0F4;
     }
     .navbar {
-       display: none;
-       width: auto;
-    
+        display: none;
     }
-    .navvy {
-        
-        margin-top: -20px;
-        height: 2.8m;
-        
 
-        
-    }
+    
     .main {
         display: block;
         margin-top: 30px;  
