@@ -91,7 +91,7 @@ const observer33 = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
         entry.target.classList.toggle("show", entry.isIntersecting)
 
-        // the berlow commented code is for if you don't want the effect to be repetitive
+        // the below commented code is for if you don't want the effect to be repetitive
         // if (entry.isIntersecting) observer.unobserve(entry.target)
         console.log(entries)
     })
@@ -109,8 +109,6 @@ const observer44 = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
         entry.target.classList.toggle("show", entry.isIntersecting)
 
-        // the berlow commented code is for if you don't want the effect to be repetitive
-        // if (entry.isIntersecting) observer.unobserve(entry.target)
         console.log(entries)
     })
 }, {
@@ -127,7 +125,7 @@ const observer55 = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
         entry.target.classList.toggle("show", entry.isIntersecting)
 
-        // the berlow commented code is for if you don't want the effect to be repetitive
+        // the below commented code is for if you don't want the effect to be repetitive
         // if (entry.isIntersecting) observer.unobserve(entry.target)
         console.log(entries)
     })
