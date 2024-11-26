@@ -594,7 +594,7 @@ h3 {
         padding: 7rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 500ms;
+        transition: 1700ms;
         overflow: hidden;
         max-width: 95%;
     

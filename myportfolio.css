@@ -58,7 +58,26 @@ body {
     text-align: center;
     font-size: 4em;
     color: #612717;
+    transform:translateX(100px) ;
+    opacity: 0;
+    transition: 1100ms;
+
 }
+.firsttext.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.container {
+    transform:translateX(100px) ;
+    opacity: 0;
+    transition: 1100ms;
+
+}
+.container.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .body-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -388,6 +407,9 @@ body {
     }
     .b1 {
         margin-left: 30px;
+    }
+    .foot {
+        font-size: 0.8em;
     }
 }
 
