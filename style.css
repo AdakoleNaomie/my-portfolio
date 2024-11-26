@@ -358,7 +358,8 @@ h3 {
         width: 45em;
         background-repeat: no-repeat;
         margin-top: -80px;
-        margin-left:140px ; 
+        margin-left:auto; 
+        margin-right: auto;
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: soft-light;
         position: relative;
@@ -367,6 +368,7 @@ h3 {
         opacity: 0;
         transition: 500ms;
         overflow: hidden;
+        max-width: 95%;
     
     }
     .image.show{
@@ -466,7 +468,7 @@ h3 {
     
 }
 
-@media only screen and (min-width:480px) and (max-width:768px) {
+@media only screen  and (max-width:768px) {
     .logo {
         color:  #612717;
         margin-top: 20px;
@@ -587,12 +589,14 @@ h3 {
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: soft-light;
         position: relative;
-        margin-left: 8px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 7rem;
         transform: translateX(100px);
         opacity: 0;
         transition: 500ms;
         overflow: hidden;
+        max-width: 95%;
     
     }
     .image.show{
@@ -644,7 +648,7 @@ h3 {
         gap: 20px;
         margin-top: -400px;
         position: fixed;
-        margin-left: 7px;
+        margin-left: 15px;
 
     
     }
@@ -816,7 +820,10 @@ h3 {
         opacity: 0;
         transition: 500ms;
         overflow: hidden;
-        margin-left: 5px;
+        margin-left: auto;
+        max-width: 90%;
+        margin-right: auto;
+        
 
     
     }
@@ -869,7 +876,7 @@ h3 {
         gap: 20px;
         margin-top: -300px;
         position: fixed;
-        margin-left: 4px;
+    
 
     
     }
